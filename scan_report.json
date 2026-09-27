@@ -1,0 +1,29 @@
+{
+  "module": "Member 1 - Code Scanner",
+  "status": "completed",
+  "filesScanned": 1,
+  "vulnerabilitiesFound": 2,
+  "details": [
+    {
+      "id": "SEC-001",
+      "type": "Hardcoded AWS Access Key",
+      "severity": "Critical",
+      "file": "sample_config.js",
+      "line": 2,
+      "snippet": "const apiKey = \"AKIA_IOSFODNN7EXAMPLE\";",
+      "secretValue": "AKIA_IOSFODNN7EXAMPLE",
+      "description": "Plaintext cloud credential discovered in application configuration."
+    },
+    {
+      "id": "SEC-002",
+      "type": "Hardcoded Secret / Database Password",
+      "severity": "Critical",
+      "file": "sample_config.js",
+      "line": 3,
+      "snippet": "const dbPassword = \"super_secret_password_123\";",
+      "secretValue": "super_secret_password_123",
+      "description": "Hardcoded database password found in source code."
+    }
+  ],
+  "timestamp": "2026-09-26T15:08:59.100Z"
+}

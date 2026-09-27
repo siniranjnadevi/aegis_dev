@@ -1,0 +1,6 @@
+{
+  "name": "AEGIS DEV Enterprise SOC Dashboard",
+  "description": "Enterprise Security Operations Center (SOC) dashboard for AEGIS DEV featuring AI Firewall sandbox, real-time code vulnerability scanner, compliance checker, automated patch fixer, and threat pathway mapper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

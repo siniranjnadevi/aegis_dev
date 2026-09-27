@@ -1,0 +1,7 @@
+{
+  "status": "pending_deployment",
+  "file": "sample_config.js",
+  "action": "Awaiting patch deployment for hardcoded credentials",
+  "patchedSecretsCount": 2,
+  "timestamp": "2026-09-26T12:30:58.180Z"
+}
